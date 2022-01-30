@@ -159,6 +159,17 @@ a.page-link{
     border: 2px solid teal;
 }
 
+.download-page-image-linux{
+    width: 400px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+#terminal-command{
+    width: 300px;
+    height: 35px;
+}
+
 #final-win-image{
     height: 550px;
     width: 500px;
@@ -181,6 +192,11 @@ a.page-link{
 #about-page-icon{
     height: 400px;
     border-radius: 15px;
+}
+
+#final-linux-image{
+    width: 410px;
+    height: 450px;
 }
 
 #error-box{
