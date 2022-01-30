@@ -1,0 +1,230 @@
+body{
+    padding: 100px 100px 0 100px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    background-color: rgb(218, 221, 221); 
+}
+
+#navImage{
+    width: 120px;
+    height: 62px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navbar{
+    background-color: teal;
+    border-bottom: 1px solid black;
+}
+
+#hide-button, #hide-button-icon{
+    background-color: #f0f0f0;
+    color: #f11664;
+}
+
+#hide-button:hover #hide-button-icon{
+    color: #f11664;
+}
+
+.nav-item a.nav-link, a.page-link{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #f0f0f0;
+    border-radius: 15px;
+    transition: 25ms ease-in-out;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-color: inherit;
+    text-align: center;
+}
+
+a.page-link{
+    padding: 10px 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    color: #f11664;
+    border: 2px solid black;
+}
+
+.nav-item:hover a.nav-link, .page-link:hover{
+    font-size: 1.8em;
+    color: #64f3ff;
+    border-color: black;
+    background-color: #f11664;
+}
+
+.copyright-header{
+    font-size: 1em;
+}
+
+#title{
+    font-size: 1.2em;
+}
+
+.mid-page-header{
+    font-size: 2.3em;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+#carousel{
+    margin: 15px 50px;
+}
+
+.carousel-display-img{
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.carousel-inner{
+    height: 450px;
+}
+
+.carousel-button-prev{
+    background-color: transparent;
+    height: 20%;
+    margin-top: 190px;
+    border: none;
+}
+
+.carousel-button-prev:hover{
+    color: white;
+}
+
+.intro-text-inner{
+    font-size: 1.25rem;
+    color: white;
+    padding: 40px 40px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 30px;
+}
+
+#icons-header{
+    padding: 0 2px;
+    margin-top: 35px; 
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.display-icon{
+    border: 2px solid black;
+    width: 128px;
+    height: 128px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.github{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.footer-list a.footer-list-item{
+    font-size: 1.5em;
+    color: rgb(27, 27, 27);
+    font-size: 1.5em;
+}
+
+.footer-list a.footer-list-item:hover{
+    font-size: 1.5em;
+    background-color: rgb(218, 221, 221);
+    border: none;
+    text-decoration: none;
+    color: teal; 
+}
+
+.standard-github-link, #link-to-download{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.standard-github-link:hover, #link-to-download:hover{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.download-page-image{
+    width: 500px;
+    height: 330px;
+    border-radius: 5px;
+}
+
+.about-page-image{
+    width: 416px;
+    height: 470px;
+    border-radius: 5px;
+    border: 2px solid teal;
+}
+
+#final-win-image{
+    height: 550px;
+    width: 500px;
+}
+
+#mac-small{
+    width: 200px;
+    height: 170px;
+}
+
+#mac-open-dmg{
+    width: 300px;
+    height: 300px;
+}
+
+#final-mac-image{
+    width: 610px;
+}
+
+#about-page-icon{
+    height: 400px;
+    border-radius: 15px;
+}
+
+#error-box{
+    font-size: 3.2rem;
+}
+
+@media (max-width: 1050px){
+    body{
+        padding: 100px 40px 0 40px;
+    }
+  
+}
+
+@media (max-width: 600px){
+    .download-page-image{
+        width: 300px;
+        height: 200px;
+    }
+    #final-win-image{
+        height: 330px;
+        width: 300px;   
+    }
+    .about-page-image{
+        height: 350px;
+        width: 320px;
+    }
+    .intro-text-inner{
+        font-size: 1.15rem;
+    }
+    body{
+        padding: 100px 30px 0 30px;
+    }
+    #about-page-icon{
+        height: 240px !important;
+        width: 280px;
+    }
+    .carousel-display-img{
+        height: 360px !important;
+    }
+    .carousel-button-prev{
+        margin-top: 135px;
+    }
+    .carousel-inner{
+        height: 360px;
+    }
+}
+
