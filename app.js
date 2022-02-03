@@ -4,7 +4,7 @@ const path = require("path");
 const ejsMate = require("ejs-mate");
 const AppError = require("./utils/AppError");
 const helmet = require("helmet");
-const PORT = 3000;
+const PORT = X;
 
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
